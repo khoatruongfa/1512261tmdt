@@ -2,7 +2,7 @@
   "name": "tmdt",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index"
   },
@@ -18,6 +18,6 @@
   "description": "a really cool app",
   "version": "1.0.0",
   "engines": {
-    "node": "8.9.4"
+    "node": "10.10.0"
   }
 }
