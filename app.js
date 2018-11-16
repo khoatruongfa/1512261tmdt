@@ -5,9 +5,10 @@ var index = require('./routers/index');
 var app = express();
 var urlencodedParser = bodyParser.urlencoded({extended: false});
 
-app.listen(3000, function(){
-	console.log('connect successfully');
-});
+var port = Number(process.env.PORT || 3000
+		       app.listen(port,function(){
+			    console.log("server is running on localhost:3000");
+			});
 
 app.use('/',index);
 
